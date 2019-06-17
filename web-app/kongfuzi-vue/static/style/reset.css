@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/* CSS Document */
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img {
+  margin: 0;
+  padding: 0;
+}
+
+fieldset,
+c {
+  border: none;
+}
+
+img {
+  display: block;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+textarea {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+input::-webkit-input-placeholder {
+  color: #c7c7c7;
+}
+
+i,
+em {
+  font-style: normal;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
